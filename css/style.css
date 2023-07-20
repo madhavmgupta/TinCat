@@ -1,0 +1,279 @@
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* .icon-square {title
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+} */
+.feacure-icon-bg{
+  background-color: whitesmoke;
+  width:55px;
+  height:55px;
+  border-radius: 10px;
+  float:left;
+}
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+.bi{
+  height: 35px;
+  margin-left:10px;
+  margin-top:10px;
+}
+.feature-heading{
+  font-size: 30px;
+  font-weight: 500;
+  
+}
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.feature-para{
+  position:relative;
+  margin-left:20px;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.heading_testimonial{
+  font-weight: 500;
+  font-size: 1.8em;
+  text-align: center;
+  margin:50px;
+  position: relative;
+  top:50px;
+  
+}
+.center_kutta{
+  display:flex;
+  justify-content:center;
+  border-radius: 50%;
+}
+.center_kutta_image{
+  border-radius: 50%;
+  height:150px;
+
+  margin-top: 50px;
+}
+.catonphone{
+  width: 400px;
+  height: 400px;
+}
+.dog_img_caption{
+ display: flex;
+ justify-content: center;
+  font-family:  "Courier New", monospace;
+}
+#testimonial{
+  background-color: whitesmoke;
+  
+}
+.images4{
+  display:flex;
+  justify-content: space-evenly;
+  margin:50px;
+}
+
+.Testimonial_image{
+  width:182px;
+  height:30px;
+}
+.tnw{
+  width: 80px;
+  height:30px;
+  margin-bottom: 40px;  
+}
+@media(max-width:960px){
+  .images4{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.pricing_header{
+display: grid;
+grid-template-columns: 1fr ;
+grid-template-rows: 1fr 1fr;
+margin: 8%;
+}
+.pricing_heading{
+font-size: 40px;
+text-align: center;
+}
+.pricing_para{
+  font-size: 1em;
+  text-align: center;
+}
+
+
+
+/* pricing section */
+.pb{
+  border:1px solid rgb(155, 153, 153);
+  border-radius: .5em;
+  width:352px;
+}
+.pb_head_text{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 400;
+  
+}
+.pb_head{
+  background: whitesmoke;
+  border-bottom:1px solid rgb(156, 154, 154);
+  border-top-left-radius: .5em;
+  border-top-right-radius: .5em;
+ 
+}
+.pb_content{
+  text-align: center;
+}
+.bl{
+  list-style-type: none;
+  margin-top:3px;
+  margin-bottom:3px;
+}
+button{
+  padding:10px;
+  border-radius: .5em;
+  background: white;
+  margin-top: 20px;
+  width:320px;
+  border: 1px solid rgb(117, 112, 112)
+}
+.mo{
+  font-size: 2.5em;
+}
+.paise{
+  font-weight: 600;
+}
+.pbs{
+  display: flex;
+  justify-content: space-around;
+}
+.pb{
+  display:none;
+  display:grid;
+  grid-template-columns: 350px;
+  grid-template-rows: 1fr 4.5fr;
+ 
+}
+.pricing_black_bg, #pricing_black_bg{
+  background: black;
+  color:white;
+}
+@media(max-width:960px){
+  .pbs{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .pb{
+    margin-bottom: 20px;
+  }
+  
+}
+
+
+
+
+
+#title{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+/* #title_text{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin-right:100px;
+  margin-left:100px; */
+/* margin:100px; */
+/* } */ 
+/* .two_buttons{
+  display: flex;
+  /* justify-content: center; */
+/* }  */
+/* .Adownload_button{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  font-size: 1.2em;
+  height:50px;
+  max-width: 150px;
+  margin-right:10px;
+  border: 1px solid white;
+} */
+/* #Anddownload_button{
+  background-color: var(--bs-nav-link-font-weight);
+  color: white;
+  margin-right:100px;
+} */
+h1{
+  font-weight: 900;
+}
+/* .iphone{
+  margin-right:180px;
+  margin-top:60px;
+} */
+/* @media(max-width:960px){
+  #title{
+    display:flex;
+    flex-direction: column;
+  }
+  .iphone{
+    align-items: center;
+    width:300px;
+    margin-left: 80px;
+    margin-top: 100px;
+    order:-1;
+  }
+  #title_text{
+    margin:50px;
+    margin-bottom:0px;
+  }
+  .two_buttons{
+    flex-direction: column;
+    
+  }
+} */
+
+#features{
+  display: flex;
+  justify-content: space-evenly;
+  margin:100px;
+
+}
+@media(max-width:960px){
+  #features{
+    flex-direction: column;
+  
+  
+  }
+}
+
+
+
+
+
+
